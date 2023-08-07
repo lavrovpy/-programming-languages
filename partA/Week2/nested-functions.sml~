@@ -1,6 +1,0 @@
-fun count(from: int, to: int) =
-    if from = to
-    then []
-    else from::count(from + 1, to)
-
-val res = count(3, 6)

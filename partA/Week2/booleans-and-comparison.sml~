@@ -1,8 +1,0 @@
-(*
-Some evaluation rules here:
-e1 andalso e2 -> if e1 is false then the expression returns false if e1 is true then the e2 is being check, if e2 is true then expression returns true either way - false
-e1 orelse e2 -> if e1 true then true else e2 is getting evaluated
-*)
-
-val isTwoAndTwoEqual = 2 = 2
-val isTwoAndTwoNotEqual = 2 <> 2

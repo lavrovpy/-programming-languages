@@ -1,9 +1,0 @@
-(* Tuples always have fixed size and can contain different data types inside *)
-(* The size of list can be changed but list can contain only elements of the same type *)
-
-val empty_list = [];
-val list = [3, 5, 6];
-val list_that_evaluates_values = [3, 4 + 4, 3, 1 + 123];
-
-(* cons -> colon colon operator :: *)
-val list_builded_with_cons = [];
